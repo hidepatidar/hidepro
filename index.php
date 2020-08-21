@@ -6,7 +6,13 @@
 .error {color: #FF0000;}
 </style>
 </head>
-<body>  
+<body>
+  
+<?php
+echo "Today is " . date("Y/m/d") . "<br>";
+echo "Today is " . date("l");
+?>
+
 
 <?php
 // define variables and set to empty values
